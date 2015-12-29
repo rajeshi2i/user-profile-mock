@@ -1,0 +1,80 @@
+@import 'color';
+nav.main-nav {
+    background-color: $primary-head;
+    .button-collapse {
+        margin-left: 15px;
+    }
+}
+
+.tabs {
+    margin-bottom: 10px;
+    .tab {
+        a {
+            color: $primary-head;
+            &:hover {
+                color: $primary-head-hover;
+                font-weight: bold;
+            }
+        }
+    }
+    .indicator {
+        background-color: $primary-head-hover;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    nav,
+    nav .nav-wrapper i,
+    nav a.button-collapse,
+    nav a.button-collapse i {
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+    color: $primary-head;
+}
+
+.btn {
+    background-color: $primary-head;
+    &:hover {
+        background-color: $primary-head;
+    }
+}
+
+
+/* Card */
+
+.card {
+    box-shadow: $box-shadow;
+    border-radius: 0px;
+    .card-image {
+        img {
+            border-radius: 0px;
+        }
+    }
+    .card-action {
+        padding: 10px;
+        .head {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            padding-bottom: 5px;
+            font-size: 1.2em;
+        }
+        .sub-head {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: 0.8em;
+        }
+    }
+    &:hover {
+        .card-action {
+            background-color: $primary-head;
+            color: $white
+        }
+    }
+}

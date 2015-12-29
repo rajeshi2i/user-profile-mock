@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/icon.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/materialize-override.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet"  href="css/font.css" />
+</head>
+
+<body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <nav class="main-nav">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" id="main-side-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Sass</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Mobile<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">Sass</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="sub-nav center"><i class="search-icon material-icons">import_export</i>
+    </nav>
+    <div class="main-container">
+        <div id="user-profile" class="row">
+        </div>
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+
+</html>

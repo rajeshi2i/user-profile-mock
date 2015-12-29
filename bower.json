@@ -1,0 +1,24 @@
+{
+  "name": "I2I",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Rajesh"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "mdi": "~1.3.41",
+    "matchHeight": "matchheight#~0.6.0"
+  }
+}

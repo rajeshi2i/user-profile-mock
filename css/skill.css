@@ -1,0 +1,66 @@
+/* Skills Style 6 */
+
+.skillst6 {
+    width: 100%;
+    color: #fff;
+}
+
+.skillst6 .skillbar {
+    width: 100%;
+    height: 25px;
+    position: relative;
+    margin-bottom: 20px;
+    color: #5a5a5a;
+}
+
+.skillst6 .count-bar {
+    height: 3px;
+    width: 0px;
+    position: relative;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.skillst6 .count-bar.color-1 {
+    background-color: #338ae7;
+}
+
+.skillst6 .count-bar.color-2 {
+    background-color: #fe871f;
+}
+
+.skillst6 .count-bar.color-3 {
+    background-color: #bd5cb9;
+}
+
+.skillst6 .count-bar.color-4 {
+    background-color: #2d7da5;
+}
+
+.skillst6 .count-bar.color-5 {
+    background-color: #f75d41;
+}
+
+.skillst6 .title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.skillst6 .count {
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/*Coustom Media Query Css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {}
