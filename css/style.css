@@ -38,7 +38,7 @@ nav.sub-nav {
     font-size: 1.2em;
     font-weight: 700;
     padding-bottom: 10px;
-    border-bottom: 1px dashed #eeeeee; }
+    border-bottom: 1px dashed #E0E0E0; }
 
 .experience-container {
   margin-top: 40px; }
@@ -302,3 +302,30 @@ nav.sub-nav {
     .education-container .content:after {
       border-width: 0px 0px 0px 0px;
       border-style: none !important; } }
+
+/* Calendar Pop up */
+.fc-popup {
+  background-color: white;
+  position: absolute;
+  display: none; }
+  .fc-popup .collection {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .fc-popup .collection .collection-item {
+      border-bottom: 0px;
+      cursor: pointer; }
+      .fc-popup .collection .collection-item i.mdi-check {
+        font-size: 26px;
+        float: right; }
+
+.fc-calendar .fc-row > div.fc-content.p:after {
+  color: #558b2f; }
+
+.fc-calendar .fc-row > div.fc-content.cl:after {
+  color: #b71c1c; }
+
+.fc-calendar .fc-row > div.fc-content.wfh:after {
+  color: #827717; }
+
+.fc-calendar .fc-row > div.fc-content.od:after {
+  color: #e65100; }

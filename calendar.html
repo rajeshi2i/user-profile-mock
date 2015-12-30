@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/icon.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="bower_components/mdi/css/materialdesignicons.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/materialize-override.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet"  href="css/font.css" />
+    <link type="text/css" rel="stylesheet"  href="css/calendario.css" />
 </head>
 
 <body>
@@ -40,13 +42,34 @@
     <nav class="sub-nav center"><i class="search-icon material-icons">import_export</i>
     </nav>
     <div class="main-container">
-        <div id="user-profile" class="row">
+        <div class="row">
+            <div class="col l12">
+                
+                <div class="custom-calendar-wrap">
+                          <div id="custom-inner" class="custom-inner">
+                                <div class="custom-header clearfix">
+                                      <div class="header-content">
+                                            <span id="custom-prev" class="custom-prev"></span>
+                                            <span id="custom-next" class="custom-next"></span>
+                                      </div>
+                                      <div id="custom-month" class="custom-month"></div>
+                                      <div id="custom-year" class="custom-year"></div>
+                                </div>
+                                <div id="calendar" class="fc-calendar-container"></div>
+                          </div>
+                    </div>
+
+
+
+            </div>
         </div>
     </div>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="http://s.codepen.io/assets/libs/modernizr.js"></script>
     <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="lib/calendario/calendario.js"></script>
+    <script type="text/javascript" src="js/calendar-config.js"></script>
 </body>
 
 </html>

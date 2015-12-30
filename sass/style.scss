@@ -402,3 +402,57 @@ nav.sub-nav {
         }
     }
 }
+
+
+
+
+/* Calendar Pop up */
+.fc-popup{
+    background-color:white;
+    position:absolute;
+    display:none;
+
+    .collection{
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        .collection-item{
+            border-bottom: 0px;
+            cursor: pointer;
+
+            i.mdi-check{
+                font-size: 26px;
+                float: right;
+            }
+        }
+    }
+}
+
+.fc-calendar {
+    .fc-row {
+        > {
+            div.fc-content{
+                &.p{
+                    &:after{
+                        color: #558b2f;
+                    }
+                }
+                &.cl{
+                    &:after{
+                        color: #b71c1c;
+                    }
+                }
+                &.wfh{
+                    &:after{
+                        color: #827717;
+                    }
+                }
+                &.od{
+                    &:after{
+                        color: #e65100;
+                    }
+                }
+            }
+        }
+    }
+} 
